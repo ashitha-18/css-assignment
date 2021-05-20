@@ -1,0 +1,189 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box1-g {
+    height: 150px;
+    width: 100vw;
+    background-color: rgb(216, 191, 216);
+    grid-area: b1;
+  }
+  
+  .box2-g {
+    height:600px;
+    width: 100vw;
+    background-color: rgb(0, 128, 128);
+    grid-area: b2;
+  }
+  .box3-g {
+    height: 200px;
+    width: 100vw;
+    background-color: rgb(1, 82, 82);
+    grid-area: b3;
+  }
+  .grid-layout {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "b1"
+      "b2"
+      "b3";
+  }
+  .logo{
+    width:130px;
+    height: 130px;
+    padding-left: 53px;
+    padding-top: 23px;
+  } 
+  .main{
+    display: inline-block;
+    padding-top: 30px;
+  }
+  h3{
+    position: relative;
+    left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    color: rgb(228, 102, 44);
+  }
+  h4{
+    position: relative;
+    left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+  }
+  .btn{
+    float: right;
+    text-align: center;
+    padding-right: 40px;
+    padding-top: 30px;
+   
+  }
+  .btn button{
+    display: inline-block;
+    height: 95px;
+    width: 120px;
+    background-color: transparent; 
+    border:none ; 
+    color: white; 
+    padding: 15px 10px ;
+    cursor: pointer;
+    transition: 0.6s ease;
+  }
+  .btn button a{
+    font-size: 24px; 
+    color: rgb(0, 128, 128);
+    text-decoration: none;
+    align-items: center;
+  }
+  .btn button a i{
+    position: relative;
+    color: rgb(0, 128, 128);
+    top: -10px;
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+  }
+  .btn button:hover{
+    background-color: white;
+    color: black;
+  }
+  .pic1{
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 36%;
+    
+  }
+  .second{
+    position: relative;
+    height: 200px;
+    text-align: center;
+    color: white;
+  }
+  .second img{
+    height: 230px;
+    width: 280px;
+    padding: 10px;
+    
+  }
+  .breeds {
+    position: absolute;
+    bottom: -20px;
+    left: 110px;
+    width: 260px;
+    font-size: 20px;
+    color: white;
+    padding: 10px 2px ;
+    background-color: rgba(48, 175, 165, 0.356);
+    text-align: center;
+  }
+  .fancy {
+    position: absolute;
+    bottom: -20px;
+    left: 568px;
+    width: 260px;
+    font-size: 20px;
+    color: white;
+    padding: 10px 2px;
+    background-color: rgba(48, 175, 165, 0.356);
+    text-align: center;
+  }
+  .map-main {
+    position: absolute;
+    bottom: -20px;
+    right: 97px;
+    width: 260px;
+    font-size: 20px;
+    color: white;
+    padding: 10px 2px 4px;
+    background-color:rgba(48, 175, 165, 0.356);
+    text-align: center;
+  }
+
+  .map{
+    position: absolute;
+    left: 73%;
+    height: 230px;
+    width: 280px;
+    padding: 10px;
+  }
+  .left{
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 113px;
+    top: 56px;
+    font-size: 20px;
+    color: white;
+  }
+.centre{
+  display: inline-block;
+  position: relative;
+  left: 342px;
+  top: 56px;
+  font-size: 20px;
+  color: white;
+}
+.right{
+  display: inline-block;
+  position: relative;
+  top: 56px;
+  right: 61px;
+  font-size: 20px;
+  float: right;  
+  color: white;
+}
+.copyright{
+  color: white;
+  position: relative;
+  top: 50%;
+  left: 30%;
+  width: 446px;
+
+}
